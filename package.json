@@ -1,0 +1,32 @@
+{
+  "name": "simpleTodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./client/testSeed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datusername1/simpleTodo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datusername1/simpleTodo/issues"
+  },
+  "homepage": "https://github.com/datusername1/simpleTodo#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "csv": "^4.0.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "faker": "^4.1.0",
+    "node": "^11.1.0"
+  }
+}
